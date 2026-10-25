@@ -1,0 +1,136 @@
+# ==============================================================================
+# Data and media
+# ==============================================================================
+# Images are distributed through Hugging Face (Ego-Exo4D frames are never redistributed)
+data/benchmark/images/
+data/train/images/
+
+# Never commit raw videos, archives or stray images (e.g. Ego-Exo4D downloads, plots)
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+*.webp
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.zip
+*.tar
+*.tar.gz
+
+# README figures are tracked
+!asset/*.png
+
+# ==============================================================================
+# Outputs, checkpoints and logs
+# ==============================================================================
+results/
+checkpoints/
+grpo_output*/
+logs/
+wandb/
+*.log
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# ==============================================================================
+# Secrets and environments
+# ==============================================================================
+.env
+*.env
+.envrc
+!.env.example
+.pypirc
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.pdm-python
+.pixi/
+__pypackages__/
+
+# ==============================================================================
+# Python
+# ==============================================================================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests, coverage and type checkers
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ==============================================================================
+# Editors, tools and OS
+# ==============================================================================
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+.claude/
+.cursorignore
+.cursorindexingignore
+.DS_Store
+**/.DS_Store
+Thumbs.db

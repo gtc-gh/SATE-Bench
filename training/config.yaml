@@ -1,0 +1,54 @@
+# ==============================================================================
+# SATE-Bench GRPO training configuration (Table 20 of the paper)
+# Every value can be overridden from the command line, e.g. --action_weight 0.6
+# ==============================================================================
+
+model:
+  model_name_or_path: "Qwen/Qwen2.5-VL-3B-Instruct"
+
+data:                                  # paths are relative to the repository root
+  train_data: "data/train/train.json"
+  val_data: "data/train/val.json"
+
+image:                                 # images are resized on the fly to save memory
+  resize_width: 640
+  resize_height: 360
+
+output:
+  output_dir: "checkpoints/grpo_qwen25vl_3b"
+  report_to: "wandb"                   # "wandb", "tensorboard" or "none"
+  logging_steps: 1
+  save_steps: 30
+  eval_steps: 30
+
+training:
+  learning_rate: 1.0e-5
+  max_steps: 300
+  warmup_steps: 30
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 16
+  early_stopping_patience: 3
+
+grpo:
+  num_generations: 8                   # rollouts per prompt (G)
+  max_completion_length: 2048
+  temperature: 1.0
+  beta: 0.005                          # KL penalty
+
+rewards:
+  accuracy_weight: 1.0                 # r1
+  format_weight: 0.5                   # r2
+  action_weight: 0.2                   # r3, swept over [0.05, 1.4] in Fig. 3
+
+lora:
+  use_lora: true
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+vllm:                                  # vLLM-accelerated rollouts (colocated with training)
+  use_vllm: true
+  vllm_gpu_memory_utilization: 0.4
+  vllm_max_model_length: 8192

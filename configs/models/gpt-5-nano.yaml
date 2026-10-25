@@ -1,0 +1,3 @@
+# gpt-5-nano-2025-08-07 through the OpenAI API (requires OPENAI_API_KEY). GPT-5 models use their default temperature.
+backend: openai
+model: gpt-5-nano-2025-08-07

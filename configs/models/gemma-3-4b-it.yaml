@@ -1,0 +1,8 @@
+# google/gemma-3-4b-it served locally with vLLM.
+# Gemma is a gated model: accept its license on Hugging Face and log in (`hf auth login`) before the first run.
+backend: vllm
+model: google/gemma-3-4b-it
+gpu_memory_utilization: 0.9
+max_model_len: 16384
+max_tokens: 8192
+repetition_penalty: 1.05

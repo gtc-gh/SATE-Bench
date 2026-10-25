@@ -1,0 +1,12 @@
+# LLaVA-OneVision served locally with vLLM (short greedy answers, no repetition penalty).
+backend: vllm
+model: lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct
+trust_remote_code: true
+gpu_memory_utilization: 0.8
+max_tokens: 128
+repetition_penalty: 1.0
+
+active:
+  max_model_len: 40960
+passive:
+  max_model_len: 32768

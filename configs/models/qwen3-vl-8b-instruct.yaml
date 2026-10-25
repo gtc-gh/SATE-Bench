@@ -1,0 +1,13 @@
+# Qwen/Qwen3-VL-8B-Instruct served locally with vLLM.
+backend: vllm
+model: Qwen/Qwen3-VL-8B-Instruct
+gpu_memory_utilization: 0.8
+max_model_len: 16384
+max_tokens: 8192
+repetition_penalty: 1.05
+
+# Settings that differ between the two evaluation settings
+active:
+  enable_thinking: true
+passive:
+  enable_thinking: false

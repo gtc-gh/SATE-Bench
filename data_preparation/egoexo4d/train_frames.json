@@ -1,0 +1,4967 @@
+{
+ "video_subdir": "frame_aligned_videos/downscaled/448",
+ "output_size": [
+  1920,
+  1080
+ ],
+ "data_root": "data/train",
+ "jpeg_quality": 95,
+ "frames": [
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike11_5_view3_0.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 524
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike11_5_view3_1.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike11_5_view3_2.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1756
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike11_5_view4_0.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 524
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike11_5_view4_1.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view1_1.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1633
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view1_2.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2418
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view2_1.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1633
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view3_0.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 722
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view3_1.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1633
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view3_2.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2418
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_bike13_4_view4_1.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1633
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view1_0.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 828
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view1_2.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2772
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view2_0.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 828
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view2_1.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1872
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view3_0.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 828
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view3_1.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1872
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view3_2.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2772
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view4_0.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 828
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer08_2_view4_1.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1872
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view1_0.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1744
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view2_1.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3944
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view3_0.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1744
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view3_1.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3944
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view3_2.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5841
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view4_0.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1744
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/cmu_soccer12_2_view4_2.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5841
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_06_18_view2_0.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_06_18_view2_1.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 712
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_06_18_view3_1.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 712
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_06_18_view4_0.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_07_15_view1_2.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3973
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_07_15_view2_1.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2683
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_07_15_view4_1.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2683
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_bike_07_15_view4_2.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3973
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view1_1.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5521
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view2_1.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5521
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view3_0.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view3_1.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5521
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view4_0.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_06_6_view4_2.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8175
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view1_0.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2405
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view1_1.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5438
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view2_1.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5438
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view2_2.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8052
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view3_1.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5438
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view3_2.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8052
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view4_1.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5438
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/fair_cooking_08_4_view4_2.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8052
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_14_2_view1_0.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 360
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_14_2_view1_2.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1207
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_14_2_view3_1.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 815
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_14_2_view5_1.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 815
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_18_2_view1_0.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1080
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_18_2_view1_2.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3617
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_18_2_view4_2.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3617
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_18_2_view5_1.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_bike_18_2_view5_2.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3617
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view1_1.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5110
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view1_2.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 7566
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view2_0.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2260
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view2_2.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 7566
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view3_0.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2260
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_16_4_view3_1.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5110
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view1_0.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 198
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view2_0.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 198
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view2_1.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 447
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view2_2.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 662
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view3_0.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 198
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view3_1.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 447
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view4_0.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 198
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view4_1.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 447
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/georgiatech_covid_17_12_view4_2.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 662
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view1_0.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view1_2.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4796
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view2_1.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3239
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view2_2.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4796
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view3_0.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view3_2.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4796
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view4_0.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view4_1.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3239
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_124_2_view4_2.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4796
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view1_1.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1658
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view1_2.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2456
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view2_1.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1658
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view2_2.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2456
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view3_0.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 733
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view3_2.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2456
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view4_0.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 733
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view4_1.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1658
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_cooking_65_2_view4_2.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2456
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view1_0.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 350
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view2_2.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1171
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view3_0.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 350
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view3_2.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1171
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view4_0.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 350
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view4_1.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 791
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view4_2.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1171
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_guitar_002_6_view5_1.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 791
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view1_0.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 576
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view2_0.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 576
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view2_1.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1303
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view2_2.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1929
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view4_2.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1929
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view5_1.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1303
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_piano_001_6_view5_2.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1929
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_014_6_view2_2.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3974
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_014_6_view3_0.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1187
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_014_6_view4_2.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3974
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_014_6_view5_1.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2684
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_014_6_view5_2.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3974
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view1_0.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1106
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view1_2.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3703
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view2_0.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1106
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view2_2.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3703
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view3_2.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3703
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view4_0.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1106
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/iiith_soccer_052_6_view4_2.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3703
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view1_2.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view2_2.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view3_0.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2483
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view3_1.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5615
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view3_2.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view4_1.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5615
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_08_3_view4_2.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8315
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view1_1.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 335
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view1_2.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 497
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view2_1.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 335
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view3_0.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 148
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view3_1.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 335
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view3_2.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 497
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_bike_10_11_view4_1.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 335
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view1_0.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 4093
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view1_1.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 9253
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view1_2.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 13702
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view2_0.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 4093
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view4_0.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 4093
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view4_1.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 9253
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_08_2_view4_2.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 13702
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view1_1.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 15618
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view2_0.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6908
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view2_2.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 23127
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view3_1.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 15618
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view3_2.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 23127
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_cooking_11_4_view4_2.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 23127
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view1_1.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3018
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view1_2.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4469
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view2_1.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3018
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view3_0.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1334
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view3_1.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3018
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view4_0.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1334
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view4_1.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3018
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view5_0.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1334
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_12_3_view5_2.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4469
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_15_3_view1_2.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4328
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_15_3_view3_1.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2923
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_15_3_view4_0.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1293
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/indiana_music_15_3_view4_1.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2923
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_cooking_040_2_view1_1.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 4023
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_cooking_040_2_view1_2.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5958
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_cooking_040_2_view2_1.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 4023
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_cooking_040_2_view3_0.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1779
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_cooking_040_2_view4_0.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1779
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view2_1.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 501
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view2_2.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 742
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view3_2.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 742
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view4_0.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 221
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view4_1.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 501
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view5_0.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 221
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_012_6_view5_2.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 742
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_021_24_view1_0.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 661
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_021_24_view1_1.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1494
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_021_24_view2_1.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1494
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_021_24_view3_0.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 661
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view1_0.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 273
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view1_2.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 916
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view2_0.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 273
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view3_2.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 916
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view4_0.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 273
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view4_2.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 916
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/minnesota_rockclimbing_030_32_view5_2.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 916
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_09_4_view2_1.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6946
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_09_4_view2_2.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 10285
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_09_4_view3_0.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3072
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_09_4_view3_2.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 10285
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_09_4_view4_0.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3072
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_13_4_view1_0.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3376
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_13_4_view4_0.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3376
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_13_4_view4_1.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 7633
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cooking_13_4_view4_2.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 11302
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view1_1.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3358
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view2_0.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1485
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view2_2.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4972
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view3_0.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1485
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view3_1.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3358
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_04_1_view3_2.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4972
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view1_0.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1281
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view2_0.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1281
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view2_2.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4288
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view3_1.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2896
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view4_0.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1281
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view4_1.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2896
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view4_2.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4288
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view5_0.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1281
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_covidtest_43_2_view5_1.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2896
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view1_2.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1673
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view2_0.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 499
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view2_2.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1673
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view3_0.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 499
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view3_1.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1129
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view3_2.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1673
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view4_0.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 499
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view4_1.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1129
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_21_1_view4_2.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1673
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view1_0.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 517
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view1_1.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1169
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view1_2.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1731
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view2_1.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1169
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view2_2.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1731
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view4_0.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 517
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view4_1.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1169
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_30_2_view4_2.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1731
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view1_0.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 338
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view2_1.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 764
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view3_1.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 764
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view4_0.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 338
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view4_1.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 764
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view4_2.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1131
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_cpr_40_3_view5_1.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 764
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view1_1.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3747
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view2_0.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1657
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view2_1.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3747
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view3_1.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3747
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view4_0.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1657
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_13_2_view4_2.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5548
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view1_0.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1631
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view1_1.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3689
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view1_2.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view2_0.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1631
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view3_0.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1631
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view3_2.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view4_0.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1631
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view4_1.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3689
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view4_2.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view5_0.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1631
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view5_1.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3689
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/nus_soccer_18_3_view5_2.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_01_11_view1_2.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 866
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_01_11_view2_0.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 258
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_01_11_view2_2.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 866
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view1_0.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 320
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view1_2.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1071
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view3_0.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 320
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view3_2.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1071
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view4_0.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 320
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_02_29_view4_1.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 723
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view1_0.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 427
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view1_1.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 967
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view1_2.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view2_0.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 427
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view2_2.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view3_1.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 967
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_basketball_08_4_view4_0.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 427
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking025_2_view2_0.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 256
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking025_2_view2_2.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 860
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking025_2_view3_0.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 256
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking025_2_view4_1.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 580
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking025_2_view4_2.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 860
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking_010_5_view1_0.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2782
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking_010_5_view1_1.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6290
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_cooking_010_5_view5_1.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6290
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view1_1.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2580
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view1_2.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3820
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view2_1.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2580
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view3_0.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1141
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view3_2.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3820
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_010_4_view4_0.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1141
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view1_0.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1267
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view1_1.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2865
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view1_2.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4243
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view2_2.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4243
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view3_2.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4243
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view4_0.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1267
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view4_1.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2865
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/sfu_covid_013_8_view4_2.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4243
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_003_55_view1_1.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 539
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_003_55_view1_2.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 799
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_003_55_view3_0.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 238
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_003_55_view3_1.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 539
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_003_55_view4_2.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 799
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_004_23_view1_1.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 443
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_004_23_view3_1.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 443
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_004_23_view4_2.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 656
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view1_0.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 513
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view2_0.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 513
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view2_1.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1161
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view3_0.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 513
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view3_1.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1161
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view3_2.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1719
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view4_0.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 513
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_basketball_005_20_view4_1.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1161
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_015_16_view1_0.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 171
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_015_16_view1_2.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 573
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_015_16_view2_2.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 573
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_015_16_view3_0.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 171
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view1_0.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 112
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view1_1.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 255
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view2_0.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 112
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view2_2.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 378
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view3_0.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 112
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view3_1.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 255
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_026_109_view3_2.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 378
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_032_79_view3_1.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 384
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_032_79_view3_2.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 569
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_bouldering_032_79_view4_1.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 384
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view1_1.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3839
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view1_2.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5685
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view2_0.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1698
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view2_1.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3839
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view2_2.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5685
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view3_0.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1698
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view3_2.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5685
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_002_4_view4_1.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3839
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_005_8_view1_0.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6143
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_005_8_view1_2.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 20565
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_005_8_view3_1.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 13888
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_005_8_view4_0.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6143
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_cooking_005_8_view4_1.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 13888
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view1_0.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 368
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view1_2.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1235
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view2_0.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 368
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view2_1.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 834
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view3_0.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 368
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view3_1.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 834
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view4_0.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 368
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view4_1.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 834
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view4_2.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1235
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view5_0.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 368
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_015_25_view5_2.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1235
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view1_1.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 920
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view1_2.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1363
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view2_0.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 407
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view2_2.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1363
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view3_2.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1363
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_018_4_view5_1.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 920
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view1_0.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view2_2.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1551
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view3_0.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view3_2.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1551
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view4_0.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view4_1.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1047
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view5_0.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 463
+  },
+  {
+   "output": "images/Ego-Exo4D/answer/uniandes_dance_023_39_view5_1.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1047
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view1_0.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 524
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view1_1.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view1_2.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1756
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view2_0.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 524
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view2_1.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view2_2.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1756
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike11_5_view4_2.jpg",
+   "take_name": "cmu_bike11_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1756
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike13_4_view1_0.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 722
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike13_4_view2_0.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 722
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike13_4_view2_2.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2418
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike13_4_view4_0.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 722
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_bike13_4_view4_2.jpg",
+   "take_name": "cmu_bike13_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2418
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer08_2_view1_1.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1872
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer08_2_view2_2.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2772
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer08_2_view4_2.jpg",
+   "take_name": "cmu_soccer08_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2772
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view1_1.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3944
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view1_2.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5841
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view2_0.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1744
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view2_2.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5841
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view4_1.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3944
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view5_0.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1744
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view5_1.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3944
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/cmu_soccer12_2_view5_2.jpg",
+   "take_name": "cmu_soccer12_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5841
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view1_0.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view1_1.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 712
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view1_2.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1054
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view2_2.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1054
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view3_0.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view3_2.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1054
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view4_1.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 712
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_06_18_view4_2.jpg",
+   "take_name": "fair_bike_06_18",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1054
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view1_0.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view1_1.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2683
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view2_0.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view2_2.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3973
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view3_0.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view3_1.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2683
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view3_2.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3973
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_bike_07_15_view4_0.jpg",
+   "take_name": "fair_bike_07_15",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1186
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view1_0.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view1_2.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8175
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view2_0.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view2_2.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8175
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view3_2.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8175
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_06_6_view4_1.jpg",
+   "take_name": "fair_cooking_06_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5521
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_08_4_view1_2.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 8052
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_08_4_view2_0.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2405
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_08_4_view3_0.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2405
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/fair_cooking_08_4_view4_0.jpg",
+   "take_name": "fair_cooking_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2405
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view1_1.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 815
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view3_0.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 360
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view3_2.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1207
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view4_0.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 360
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view4_1.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 815
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view4_2.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1207
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view5_0.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 360
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_14_2_view5_2.jpg",
+   "take_name": "georgiatech_bike_14_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1207
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view1_1.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view3_0.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1080
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view3_1.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view3_2.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3617
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view4_0.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1080
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view4_1.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2442
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_bike_18_2_view5_0.jpg",
+   "take_name": "georgiatech_bike_18_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1080
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view1_0.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2260
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view2_1.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5110
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view3_2.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 7566
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view4_0.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2260
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view4_1.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5110
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_16_4_view4_2.jpg",
+   "take_name": "georgiatech_covid_16_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 7566
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_17_12_view1_1.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 447
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_17_12_view1_2.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 662
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/georgiatech_covid_17_12_view3_2.jpg",
+   "take_name": "georgiatech_covid_17_12",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 662
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_124_2_view1_1.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3239
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_124_2_view2_0.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_124_2_view3_1.jpg",
+   "take_name": "iiith_cooking_124_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3239
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_65_2_view1_0.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 733
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_65_2_view2_0.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 733
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_cooking_65_2_view3_1.jpg",
+   "take_name": "iiith_cooking_65_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1658
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view1_1.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 791
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view1_2.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1171
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view2_0.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 350
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view2_1.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 791
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view3_1.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 791
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view5_0.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 350
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_guitar_002_6_view5_2.jpg",
+   "take_name": "iiith_guitar_002_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1171
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view1_1.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1303
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view1_2.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1929
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view3_0.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 576
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view3_1.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1303
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view3_2.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1929
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view4_0.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 576
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view4_1.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1303
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_piano_001_6_view5_0.jpg",
+   "take_name": "iiith_piano_001_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 576
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view1_0.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1187
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view1_1.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2684
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view1_2.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3974
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view2_0.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1187
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view2_1.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2684
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view3_1.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2684
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view3_2.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3974
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view4_0.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1187
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view4_1.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2684
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_014_6_view5_0.jpg",
+   "take_name": "iiith_soccer_014_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1187
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_052_6_view1_1.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_052_6_view2_1.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_052_6_view3_0.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1106
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_052_6_view3_1.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/iiith_soccer_052_6_view4_1.jpg",
+   "take_name": "iiith_soccer_052_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_08_3_view1_0.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2483
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_08_3_view1_1.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5615
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_08_3_view2_0.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2483
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_08_3_view2_1.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 5615
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_08_3_view4_0.jpg",
+   "take_name": "indiana_bike_08_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2483
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_10_11_view1_0.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 148
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_10_11_view2_0.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 148
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_10_11_view2_2.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 497
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_10_11_view4_0.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 148
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_bike_10_11_view4_2.jpg",
+   "take_name": "indiana_bike_10_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 497
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_08_2_view2_1.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 9253
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_08_2_view2_2.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 13702
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_08_2_view3_0.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 4093
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_08_2_view3_1.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 9253
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_08_2_view3_2.jpg",
+   "take_name": "indiana_cooking_08_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 13702
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view1_0.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6908
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view1_2.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 23127
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view2_1.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 15618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view3_0.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6908
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view4_0.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6908
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_cooking_11_4_view4_1.jpg",
+   "take_name": "indiana_cooking_11_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 15618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view1_0.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1334
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view2_0.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1334
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view2_2.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4469
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view3_2.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4469
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view4_2.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4469
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_12_3_view5_1.jpg",
+   "take_name": "indiana_music_12_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3018
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view1_0.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1293
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view1_1.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2923
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view2_0.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1293
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view2_1.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2923
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view2_2.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4328
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view3_0.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1293
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view3_2.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4328
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view4_2.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4328
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view5_0.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1293
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view5_1.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2923
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/indiana_music_15_3_view5_2.jpg",
+   "take_name": "indiana_music_15_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4328
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view1_0.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1779
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view2_0.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1779
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view2_2.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5958
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view3_1.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 4023
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view3_2.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5958
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view4_1.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 4023
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view4_2.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5958
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view5_0.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1779
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view5_1.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 4023
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_cooking_040_2_view5_2.jpg",
+   "take_name": "minnesota_cooking_040_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5958
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view1_0.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 221
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view1_1.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view1_2.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 742
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view2_0.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 221
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view3_0.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 221
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view3_1.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view4_2.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 742
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_012_6_view5_1.jpg",
+   "take_name": "minnesota_rockclimbing_012_6",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 501
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view1_2.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2212
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view2_0.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 661
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view2_2.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2212
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view3_1.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1494
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view3_2.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2212
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view4_0.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 661
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view4_1.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1494
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view4_2.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2212
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view5_0.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 661
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view5_1.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1494
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_021_24_view5_2.jpg",
+   "take_name": "minnesota_rockclimbing_021_24",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 2212
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view1_1.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view2_1.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view2_2.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 916
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view3_0.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 273
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view3_1.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view4_1.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view5_0.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 273
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/minnesota_rockclimbing_030_32_view5_1.jpg",
+   "take_name": "minnesota_rockclimbing_030_32",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 618
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_09_4_view2_0.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3072
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_09_4_view3_1.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6946
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_09_4_view4_1.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6946
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_09_4_view4_2.jpg",
+   "take_name": "nus_cooking_09_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 10285
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view1_1.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 7633
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view1_2.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 11302
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view2_0.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3376
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view2_1.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 7633
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view2_2.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 11302
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view3_0.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 3376
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view3_1.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 7633
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cooking_13_4_view3_2.jpg",
+   "take_name": "nus_cooking_13_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 11302
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view1_0.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1485
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view1_2.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4972
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view2_1.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3358
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view4_0.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1485
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view4_1.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3358
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_04_1_view4_2.jpg",
+   "take_name": "nus_covidtest_04_1",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4972
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view1_1.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2896
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view1_2.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4288
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view2_1.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2896
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view3_0.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1281
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view3_2.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4288
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_covidtest_43_2_view5_2.jpg",
+   "take_name": "nus_covidtest_43_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 4288
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_21_1_view1_0.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 499
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_21_1_view1_1.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1129
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_21_1_view2_1.jpg",
+   "take_name": "nus_cpr_21_1",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1129
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_30_2_view2_0.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 517
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_30_2_view3_0.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 517
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_30_2_view3_1.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1169
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_30_2_view3_2.jpg",
+   "take_name": "nus_cpr_30_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1731
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view1_1.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 764
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view1_2.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1131
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view2_0.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 338
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view2_2.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1131
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view3_0.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 338
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view3_2.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1131
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view5_0.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 338
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_cpr_40_3_view5_2.jpg",
+   "take_name": "nus_cpr_40_3",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1131
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view1_0.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1657
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view1_2.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5548
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view2_2.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5548
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view3_0.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1657
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view3_2.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5548
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view4_1.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3747
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view5_0.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1657
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view5_1.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3747
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_13_2_view5_2.jpg",
+   "take_name": "nus_soccer_13_2",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5548
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_18_3_view2_1.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3689
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_18_3_view2_2.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5463
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/nus_soccer_18_3_view3_1.jpg",
+   "take_name": "nus_soccer_18_3",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3689
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view1_0.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 258
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view1_1.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 585
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view2_1.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 585
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view3_0.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 258
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view3_1.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 585
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view3_2.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 866
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view4_0.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 258
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view4_1.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 585
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_01_11_view4_2.jpg",
+   "take_name": "sfu_basketball_01_11",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 866
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view1_1.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 723
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view2_0.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 320
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view2_1.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 723
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view2_2.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1071
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view3_1.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 723
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_02_29_view4_2.jpg",
+   "take_name": "sfu_basketball_02_29",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1071
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_08_4_view2_1.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 967
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_08_4_view3_0.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 427
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_08_4_view3_2.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_08_4_view4_1.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 967
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_basketball_08_4_view4_2.jpg",
+   "take_name": "sfu_basketball_08_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1432
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view1_0.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 256
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view1_1.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 580
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view1_2.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 860
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view2_1.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 580
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view3_1.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 580
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view3_2.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 860
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking025_2_view4_0.jpg",
+   "take_name": "sfu_cooking025_2",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 256
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view1_2.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 9315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view2_0.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2782
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view2_1.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6290
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view2_2.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 9315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view4_0.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2782
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view4_1.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 6290
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view4_2.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 9315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view5_0.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 2782
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_cooking_010_5_view5_2.jpg",
+   "take_name": "sfu_cooking_010_5",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 9315
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view1_0.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1141
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view2_0.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1141
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view2_2.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3820
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view3_1.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2580
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view4_1.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2580
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_010_4_view4_2.jpg",
+   "take_name": "sfu_covid_010_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 3820
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_013_8_view2_0.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1267
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_013_8_view2_1.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2865
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_013_8_view3_0.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1267
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/sfu_covid_013_8_view3_1.jpg",
+   "take_name": "sfu_covid_013_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 2865
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view1_0.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 238
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view2_0.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 238
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view2_1.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 539
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view2_2.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 799
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view3_2.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 799
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view4_0.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 238
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_003_55_view4_1.jpg",
+   "take_name": "uniandes_basketball_003_55",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 539
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view1_0.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 195
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view1_2.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 656
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view2_0.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 195
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view2_1.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 443
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view2_2.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 656
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view3_0.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 195
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view3_2.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 656
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view4_0.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 195
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_004_23_view4_1.jpg",
+   "take_name": "uniandes_basketball_004_23",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 443
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_005_20_view1_1.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1161
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_005_20_view1_2.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1719
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_005_20_view2_2.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1719
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_basketball_005_20_view4_2.jpg",
+   "take_name": "uniandes_basketball_005_20",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1719
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view1_1.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 387
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view2_0.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 171
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view2_1.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 387
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view3_1.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 387
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view3_2.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 573
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view4_0.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 171
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view4_1.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 387
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_015_16_view4_2.jpg",
+   "take_name": "uniandes_bouldering_015_16",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 573
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_026_109_view1_2.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 378
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_026_109_view2_1.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 255
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_026_109_view4_0.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 112
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_026_109_view4_1.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 255
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_026_109_view4_2.jpg",
+   "take_name": "uniandes_bouldering_026_109",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 378
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view1_0.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 170
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view1_1.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 384
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view1_2.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 569
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view2_0.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 170
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view2_1.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 384
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view2_2.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 569
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view3_0.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 170
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view4_0.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 170
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_bouldering_032_79_view4_2.jpg",
+   "take_name": "uniandes_bouldering_032_79",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 569
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_002_4_view1_0.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1698
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_002_4_view3_1.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 3839
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_002_4_view4_0.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 1698
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_002_4_view4_2.jpg",
+   "take_name": "uniandes_cooking_002_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 5685
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view1_1.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 13888
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view2_0.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6143
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view2_1.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 13888
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view2_2.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 20565
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view3_0.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 6143
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view3_2.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 20565
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_cooking_005_8_view4_2.jpg",
+   "take_name": "uniandes_cooking_005_8",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 20565
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_015_25_view1_1.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 834
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_015_25_view2_2.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam02.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1235
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_015_25_view3_2.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam03.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1235
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_015_25_view5_1.jpg",
+   "take_name": "uniandes_dance_015_25",
+   "camera": "cam05.mp4",
+   "relative_position": 0.52,
+   "frame_index": 834
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view1_0.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam01.mp4",
+   "relative_position": 0.23,
+   "frame_index": 407
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view2_1.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 920
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view3_0.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.23,
+   "frame_index": 407
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view3_1.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 920
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view4_0.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.23,
+   "frame_index": 407
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view4_1.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.52,
+   "frame_index": 920
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view4_2.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1363
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view5_0.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam05.mp4",
+   "relative_position": 0.23,
+   "frame_index": 407
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_018_4_view5_2.jpg",
+   "take_name": "uniandes_dance_018_4",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1363
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view1_1.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam01.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1047
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view1_2.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam01.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1551
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view2_0.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam02.mp4",
+   "relative_position": 0.23,
+   "frame_index": 463
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view2_1.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam02.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1047
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view3_1.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam03.mp4",
+   "relative_position": 0.52,
+   "frame_index": 1047
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view4_2.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam04.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1551
+  },
+  {
+   "output": "images/Ego-Exo4D/explore/uniandes_dance_023_39_view5_2.jpg",
+   "take_name": "uniandes_dance_023_39",
+   "camera": "cam05.mp4",
+   "relative_position": 0.77,
+   "frame_index": 1551
+  }
+ ]
+}
