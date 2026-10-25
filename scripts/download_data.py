@@ -13,8 +13,7 @@ from pathlib import Path
 
 from huggingface_hub import snapshot_download
 
-# TODO: replace with the final Hugging Face dataset repository before release.
-HF_DATASET_REPO = "<HF_ORG>/SATE-Bench"
+HF_DATASET_REPO = "gtc-hf/SATE-Bench"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 

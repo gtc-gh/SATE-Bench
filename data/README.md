@@ -15,20 +15,13 @@ tags:
   - multimodal-llm
   - benchmark
 configs:
-  - config_name: active
+  - config_name: browse
+    default: true
     data_files:
       - split: test
-        path: benchmark/spatial_active.json
-  - config_name: passive
-    data_files:
-      - split: test
-        path: benchmark/spatial_passive.json
-  - config_name: grpo_training
-    data_files:
-      - split: train
-        path: train/train.json
-      - split: validation
-        path: train/val.json
+        path:
+          - benchmark/metadata.jsonl
+          - benchmark/images/**
 # The fields below only take effect if "Access requests" (gated access) is enabled in the dataset settings.
 extra_gated_prompt: >-
   SATE-Bench is released for non-commercial research only. The images show real people and are derived
@@ -68,17 +61,35 @@ This repository contains the annotations and the multi-view frames. The evaluati
 | Frames | 1,907 (1,746 included + 161 Ego-Exo4D via script) | 1,937 (1,229 included + 708 Ego-Exo4D via script) |
 | Resolution | 1920×1080 JPEG | 1920×1080 JPEG |
 
-The ten tasks cover five cognitive dimensions:
-
-| Dimension | Task | # QA |
-|---|---|---|
-| Entity Counting | Human Counting / Object Counting | 308 / 232 |
-| Entity Existence | Human Existence / Object Existence | 203 / 218 |
-| Pose and Physical Interaction | Fine-grained Action and Pose / Human-Object Interaction | 301 / 165 |
-| Global Relative Proximity | Relative Distance to Human / Relative Distance to Object | 508 / 334 |
-| View-Conditioned Spatial Geometry | View-Specific Depth Ordering / View-Specific Direction | 124 / 132 |
-
 Most questions have 5 options, one of which is an abstention option (the target is not visible or the views are insufficient); existence questions have 2 options (Yes/No).
+
+## Getting the Ego-Exo4D Frames
+
+The Ego-Exo4D license does not allow redistributing its frames, so the 161 benchmark frames (38 takes) and 708 training frames (55 takes) that come from Ego-Exo4D have to be rebuilt from the official videos. Only the 448p videos of these 93 takes are needed, not the full dataset (the default Ego-Exo4D download is about 14 TiB).
+
+1. **Request access.** Review and sign the Ego-Exo4D license agreement at <https://ego4d.dev/request/ego-exo4d>. Approval usually takes about 48 hours; you then receive AWS access credentials by email. The credentials expire after 14 days, so download the videos within that window (request again at the same link to renew them).
+2. **Install the downloader and set up the credentials** (code repository environment):
+   ```bash
+   pip install ego4d awscli
+   aws configure   # enter the access key and secret key from the email; press Enter for the other fields
+   ```
+3. **Download the Ego-Exo4D metadata** (small JSON files, including `takes.json`):
+   ```bash
+   egoexo -o <EGOEXO_DIR> --parts metadata
+   ```
+4. **Download only the videos SATE-Bench needs.** The downloader selects takes by `take_uid`; this helper looks up the 93 take names in `takes.json` and prints the exact command (add `--split benchmark` if you only need the evaluation frames):
+   ```bash
+   python data_preparation/egoexo4d/download_command.py --takes_json <EGOEXO_DIR>/takes.json
+   # then run the printed command, which looks like:
+   # egoexo -o <EGOEXO_DIR> --parts downscaled_takes/448 --uids <take_uid_1> <take_uid_2> ...
+   ```
+5. **Rebuild the frames.** The script reads the exact frame index of every frame from `data_preparation/egoexo4d/*_frames.json` and writes it to the path referenced by the annotations:
+   ```bash
+   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>
+   # evaluation frames only:
+   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR> --split benchmark
+   ```
+   In our setup (OpenCV 5.0) the rebuilt frames are byte-identical to the ones used in the paper; other OpenCV/FFmpeg versions may introduce tiny pixel differences.
 
 ## Dataset Structure
 
@@ -86,6 +97,7 @@ Most questions have 5 options, one of which is an abstention option (the target 
 benchmark/
 ├── spatial_active.json          # 1,615 Active-setting questions
 ├── spatial_passive.json         # 910 Passive-setting questions
+├── metadata.jsonl               # questions + image lists for the Dataset Viewer (config `browse`)
 └── images/<Dataset>/<sequence>/<frame>/view_<k>.jpg
 train/
 ├── train.json                   # 17,433 GRPO training samples
@@ -93,7 +105,7 @@ train/
 └── images/M3GYM/{explore,answer}/<sequence>_view<k>_<i>.jpg
 ```
 
-Ego-Exo4D frames (`benchmark/images/Ego-Exo4D/...` and `train/images/Ego-Exo4D/...`) are **not included** because the Ego-Exo4D license does not allow redistribution. They are referenced by the annotations and can be rebuilt exactly with the script in the code repository (see [How to Use](#how-to-use)).
+Ego-Exo4D frames (`benchmark/images/Ego-Exo4D/...` and `train/images/Ego-Exo4D/...`) are **not included** because the Ego-Exo4D license does not allow redistribution. They are referenced by the annotations and can be rebuilt exactly from the official Ego-Exo4D videos (see [Getting the Ego-Exo4D Frames](#getting-the-ego-exo4d-frames)).
 
 ### Benchmark fields
 
@@ -121,7 +133,7 @@ Example (`benchmark/spatial_active.json`):
 | `dataset` | str | Source dataset of the scene. |
 | `scene` | str | `<sequence>/<frame>` identifier of the synchronized multi-view frame. |
 | `type` | str | `active` or `passive`. |
-| `question_name` | str | Task name (one of the ten tasks above). |
+| `question_name` | str | Task name, one of ten tasks (e.g. `Human Counting`, `View-Specific Direction`). |
 | `question` | str | Natural-language question. |
 | `options` | dict | Answer options `A`–`E` (or `A`–`B`). |
 | `answer` | str | Ground-truth option letter. |
@@ -147,45 +159,44 @@ pip install -r requirements.txt
 #    (if access requests are enabled, log in first with `hf auth login`)
 python scripts/download_data.py
 
-# 2. Rebuild the Ego-Exo4D frames from the official Ego-Exo4D videos (requires the Ego-Exo4D license)
-python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>/takes
+# 2. Rebuild the Ego-Exo4D frames (see "Getting the Ego-Exo4D Frames" above)
+python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>
 
 # 3. Evaluate a model
 python evaluation/run_active.py  --config configs/models/qwen3-vl-8b-instruct.yaml
 python evaluation/run_passive.py --config configs/models/qwen3-vl-8b-instruct.yaml
 ```
 
-The annotations can also be loaded with 🤗 Datasets (the configs are `active`, `passive` and `grpo_training`):
+The `browse` config can also be loaded with 🤗 Datasets (this downloads the benchmark images):
 
 ```python
 from datasets import load_dataset
 
-active = load_dataset("<HF_ORG>/SATE-Bench", "active", split="test")
-print(active[0]["question"], active[0]["image_paths"])
+browse = load_dataset("gtc-hf/SATE-Bench", split="test")
+row = browse[0]
+print(row["question"], row["options"], row["answer"], len(row["images"]))
 ```
+
+For the complete annotations (including Ego-Exo4D questions and the GRPO training data), use the JSON files, e.g. via `python scripts/download_data.py` or `huggingface_hub.hf_hub_download`.
 
 ## Source Datasets
 
 SATE-Bench is built on frames from the official test splits (or held-out subsets) of ten human-centric multi-view datasets. The GRPO training data comes from disjoint training sequences of M3GYM and Ego-Exo4D.
 
-| Source dataset | Scenes | Benchmark frames | Included in this repository | License of the source dataset |
-|---|---|---|---|---|
-| [4D-OR](https://github.com/egeozsoy/4D-OR) | 10 | 60 | Frames | MIT |
-| [core4D](https://github.com/leolyliu/CORE4D-Instructions) | 96 | 384 | Frames | CC BY 4.0 |
-| [Ego-Exo4D](https://ego-exo4d-data.org/) | 38 | 161 | Extraction script only | Ego4D License Agreement |
-| [EgoHumans](https://rawalkhirodkar.github.io/egohumans/) | 10 | 80 | Frames | Apache-2.0 |
-| [Harmony4D](https://jyuntins.github.io/harmony4d/) | 39 | 312 | Frames | MIT |
-| [HOI-M3](https://juzezhang.github.io/HOIM3_ProjectPage/) | 21 | 168 | Frames | Apache-2.0 |
-| [M3GYM](https://finalyou.github.io/M3GYM/) | 14 | 112 | Frames | Non-commercial academic |
-| [MM-OR](https://github.com/egeozsoy/MM-OR) | 18 | 90 | Frames | Apache-2.0 |
-| [MvMHAT](https://github.com/realgump/MvMHAT) | 5 | 20 | Frames | Non-commercial academic |
-| [Replay](https://github.com/facebookresearch/replay_dataset) | 65 | 520 | Frames | CC BY-NC 4.0 |
+| Source dataset | Included in this repository | License of the source dataset |
+|---|---|---|
+| [4D-OR](https://github.com/egeozsoy/4D-OR) | Frames | MIT |
+| [core4D](https://github.com/leolyliu/CORE4D-Instructions) | Frames | CC BY 4.0 |
+| [Ego-Exo4D](https://ego-exo4d-data.org/) | Extraction script only | Ego4D License Agreement |
+| [EgoHumans](https://rawalkhirodkar.github.io/egohumans/) | Frames | Apache-2.0 |
+| [Harmony4D](https://jyuntins.github.io/harmony4d/) | Frames | MIT |
+| [HOI-M3](https://juzezhang.github.io/HOIM3_ProjectPage/) | Frames | Apache-2.0 |
+| [M3GYM](https://finalyou.github.io/M3GYM/) | Frames | Non-commercial academic |
+| [MM-OR](https://github.com/egeozsoy/MM-OR) | Frames | Apache-2.0 |
+| [MvMHAT](https://github.com/realgump/MvMHAT) | Frames | Non-commercial academic |
+| [Replay](https://github.com/facebookresearch/replay_dataset) | Frames | CC BY-NC 4.0 |
 
 Frames were synchronized with the official calibration data, extracted at 1920×1080 and sorted clockwise around each scene. Please also comply with the license and terms of use of each source dataset.
-
-## Annotation Process
-
-Four trained annotators wrote challenging multiple-choice questions on synchronized frames. For the Active setting they selected an initial view that genuinely requires exploration; for the Passive setting they selected a subset of views that guarantees the question is answerable. Two independent reviewers cross-validated every item (with a third expert resolving disputes); ambiguous items and items answerable from text alone were removed.
 
 ## Considerations for Using the Data
 
@@ -200,11 +211,4 @@ The SATE-Bench annotations and data are released under [CC BY-NC 4.0](https://cr
 
 ## Citation
 
-```bibtex
-@inproceedings{satebench2027,
-  title     = {Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?},
-  author    = {Guo, Tianchen and Zhang, Tengyue and Liu, Chen and Chen, Ling and Yu, Xin},
-  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  year      = {2027}
-}
-```
+Coming soon.

@@ -6,7 +6,7 @@
 
 [![Project Page](https://img.shields.io/badge/🌐%20Project-Page-blue)](https://gtc-gh.github.io/SATE-Bench/)
 [![arXiv](https://img.shields.io/badge/Arxiv-Coming%20Soon-b31b1b.svg?logo=arXiv)](#)
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Data%20%28Coming%20Soon%29-ffcc00.svg)](#)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Data-ffcc00.svg)](https://huggingface.co/datasets/gtc-hf/SATE-Bench)
 [![GitHub](https://img.shields.io/badge/💻%20GitHub-Code-green)](https://github.com/gtc-gh/SATE-Bench)
 
 </div>
@@ -29,7 +29,7 @@
 
 ---
 
-This is the official repository for the paper **"Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?"** (WACV 2027). It contains the SATE-Bench annotations, data preparation scripts, the evaluation code for proprietary and open-source MLLMs, and the GRPO training code.
+This is the official repository for the paper **"Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?"** (WACV 2027). It contains the SATE-Bench annotations, data preparation scripts, the MLLMs evaluation code, and the GRPO training code.
 
 ---
 
@@ -74,6 +74,7 @@ SATE-Bench/
 │   ├── benchmark/
 │   │   ├── spatial_active.json    # 1,615 Active-setting QA pairs
 │   │   ├── spatial_passive.json   # 910 Passive-setting QA pairs
+│   │   ├── metadata.jsonl         # Questions + image lists for the Hugging Face Dataset Viewer
 │   │   └── images/                # Multi-view frames (downloaded from Hugging Face / extracted for Ego-Exo4D)
 │   └── train/
 │       ├── train.json             # 17,433 GRPO training samples
@@ -81,6 +82,7 @@ SATE-Bench/
 │       └── images/                # Training frames (M3GYM + Ego-Exo4D)
 ├── data_preparation/
 │   └── egoexo4d/
+│       ├── download_command.py    # Prints the egoexo command for the 93 takes SATE-Bench needs
 │       ├── extract_frames.py      # Rebuilds the Ego-Exo4D frames from the official videos
 │       ├── benchmark_frames.json  # Exact frame locations of the 161 benchmark frames
 │       └── train_frames.json      # Exact frame locations of the 708 training frames
@@ -104,6 +106,7 @@ SATE-Bench/
 │   └── train.sh                   # Single- / multi-GPU launcher
 ├── scripts/
 │   ├── download_data.py           # Downloads the images from Hugging Face
+│   ├── build_viewer_metadata.py   # Regenerates data/benchmark/metadata.jsonl for the Dataset Viewer
 │   ├── eval_api_models.sh         # Gemini and GPT models of the paper
 │   ├── eval_open_source.sh        # Open-source models of the paper
 │   └── eval_grpo.sh               # Active + Passive evaluation of a GRPO checkpoint
@@ -199,23 +202,30 @@ export OPENAI_API_KEY=YOUR_OPENAI_API_KEY   # GPT models
 
 ### 3. Dataset Preparation
 
-1. Download the multi-view images of all source datasets except Ego-Exo4D from Hugging Face:
+1. Download the multi-view images of all source datasets except Ego-Exo4D from [Hugging Face](https://huggingface.co/datasets/gtc-hf/SATE-Bench).
    ```bash
    python scripts/download_data.py                     # benchmark + training images
    python scripts/download_data.py --subset benchmark  # evaluation images only
    ```
    The Hugging Face dataset requires an access request: request access on the dataset page and log in with `hf auth login` before downloading.
-2. **Ego-Exo4D frames are not redistributed.** Sign the [Ego-Exo4D license](https://ego-exo4d-data.org/), install the official downloader (`pip install ego4d`) and download the 448p frame-aligned take videos:
+2. **Ego-Exo4D frames are not redistributed.** Request access by signing the Ego-Exo4D license at <https://ego4d.dev/request/ego-exo4d>. After about 48 hours you receive AWS credentials by email (valid for 14 days). Then install the downloader and set up the credentials:
    ```bash
-   egoexo -o <EGOEXO_DIR> --parts downscaled_takes/448
+   pip install ego4d awscli
+   aws configure   # access key and secret key from the email
    ```
-3. Rebuild the exact Ego-Exo4D frames used by SATE-Bench (161 benchmark frames from 38 takes and 708 training frames from 55 takes):
+3. Download the Ego-Exo4D metadata, then only the 448p videos of the 93 takes used by SATE-Bench (instead of the ~14 TiB default download). The helper prints the `egoexo` command with the required take UIDs:
    ```bash
-   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>/takes
+   egoexo -o <EGOEXO_DIR> --parts metadata
+   python data_preparation/egoexo4d/download_command.py --takes_json <EGOEXO_DIR>/takes.json
+   # run the printed command: egoexo -o <EGOEXO_DIR> --parts downscaled_takes/448 --uids ...
+   ```
+4. Rebuild the exact Ego-Exo4D frames used by SATE-Bench (161 benchmark frames from 38 takes and 708 training frames from 55 takes):
+   ```bash
+   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>
    # evaluation frames only:
-   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>/takes --split benchmark
+   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR> --split benchmark
    ```
-4. Ensure the directories align with the [Project Directory Structure](#project-directory-structure) shown above. The evaluation scripts check that every image exists before running.
+5. Ensure the directories align with the [Project Directory Structure](#project-directory-structure) shown above. The evaluation scripts check that every image exists before running.
 
 All benchmark frames come from the official test splits (or held-out subsets) of the source datasets. The GRPO training frames come from disjoint training sequences of M3GYM (31 sequences) and Ego-Exo4D (55 takes).
 
@@ -296,7 +306,7 @@ We explore whether active exploration can be learned with Group Relative Policy 
 1. **Prepare the training images**:
    ```bash
    python scripts/download_data.py --subset train
-   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>/takes --split train
+   python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR> --split train
    ```
 2. **Train** (all hyper-parameters are in `training/config.yaml` and can be overridden on the command line):
    ```bash
