@@ -63,12 +63,29 @@ This repository contains the annotations and the multi-view frames. The evaluati
 
 Most questions have 5 options, one of which is an abstention option (the target is not visible or the views are insufficient); existence questions have 2 options (Yes/No).
 
-## Getting the Ego-Exo4D Frames
+## How to Use
+
+The evaluation and training code is in the [code repository](https://github.com/gtc-gh/SATE-Bench). Setting up the data takes two steps: download everything hosted here, then rebuild the Ego-Exo4D frames.
+
+### Step 1: Download the data
+
+This dataset is gated: accept the terms on this page and log in with `hf auth login` before downloading.
+
+```bash
+git clone https://github.com/gtc-gh/SATE-Bench.git
+cd SATE-Bench
+pip install -r requirements.txt
+
+hf auth login
+python scripts/download_data.py   # annotations and all frames except Ego-Exo4D, into ./data
+```
+
+### Step 2: Rebuild the Ego-Exo4D frames
 
 The Ego-Exo4D license does not allow redistributing its frames, so the 161 benchmark frames (38 takes) and 708 training frames (55 takes) that come from Ego-Exo4D have to be rebuilt from the official videos. Only the 448p videos of these 93 takes are needed, not the full dataset (the default Ego-Exo4D download is about 14 TiB).
 
 1. **Request access.** Review and sign the Ego-Exo4D license agreement at <https://ego4d.dev/request/ego-exo4d>. Approval usually takes about 48 hours; you then receive AWS access credentials by email. The credentials expire after 14 days, so download the videos within that window (request again at the same link to renew them).
-2. **Install the downloader and set up the credentials** (code repository environment):
+2. **Install the downloader and set up the credentials:**
    ```bash
    pip install ego4d awscli
    aws configure   # enter the access key and secret key from the email; press Enter for the other fields
@@ -91,6 +108,29 @@ The Ego-Exo4D license does not allow redistributing its frames, so the 161 bench
    ```
    In our setup (OpenCV 5.0) the rebuilt frames are byte-identical to the ones used in the paper; other OpenCV/FFmpeg versions may introduce tiny pixel differences.
 
+### Step 3: Load with 🤗 Datasets (optional)
+
+The `browse` config can also be loaded with 🤗 Datasets (this downloads the benchmark images). It contains all benchmark questions except the Ego-Exo4D ones, so it does not need Step 2:
+
+```python
+from datasets import load_dataset
+
+browse = load_dataset("gtc-hf/SATE-Bench", split="test")
+row = browse[0]
+print(row["question"], row["options"], row["answer"], len(row["images"]))
+```
+
+For the complete annotations (including Ego-Exo4D questions and the GRPO training data), use the JSON files downloaded in Step 1.
+
+### Step 4: Evaluate a model
+
+```bash
+python evaluation/run_active.py  --config configs/models/qwen3-vl-8b-instruct.yaml
+python evaluation/run_passive.py --config configs/models/qwen3-vl-8b-instruct.yaml
+```
+
+See the [code repository](https://github.com/gtc-gh/SATE-Bench) for all model configs, the metrics and the GRPO training code.
+
 ## Dataset Structure
 
 ```
@@ -105,7 +145,7 @@ train/
 └── images/M3GYM/{explore,answer}/<sequence>_view<k>_<i>.jpg
 ```
 
-Ego-Exo4D frames (`benchmark/images/Ego-Exo4D/...` and `train/images/Ego-Exo4D/...`) are **not included** because the Ego-Exo4D license does not allow redistribution. They are referenced by the annotations and can be rebuilt exactly from the official Ego-Exo4D videos (see [Getting the Ego-Exo4D Frames](#getting-the-ego-exo4d-frames)).
+Ego-Exo4D frames (`benchmark/images/Ego-Exo4D/...` and `train/images/Ego-Exo4D/...`) are **not included**; they are referenced by the annotations and rebuilt in [How to Use, Step 2](#how-to-use).
 
 ### Benchmark fields
 
@@ -145,39 +185,6 @@ Example (`benchmark/spatial_active.json`):
 ### GRPO training fields
 
 `train/train.json` and `train/val.json` contain single-view samples with the fields `index`, `dataset`, `type`, `question_name`, `question`, `options`, `answer` and `image_path` (relative to `train/`). For `active` samples, the correct option is *"Move and explore more views."*; for `passive` samples it is the factual answer.
-
-## How to Use
-
-The full evaluation protocol (multi-turn exploration, answer parsing and metrics) is implemented in the [code repository](https://github.com/gtc-gh/SATE-Bench):
-
-```bash
-git clone https://github.com/gtc-gh/SATE-Bench.git
-cd SATE-Bench
-pip install -r requirements.txt
-
-# 1. Download this dataset into ./data
-#    (if access requests are enabled, log in first with `hf auth login`)
-python scripts/download_data.py
-
-# 2. Rebuild the Ego-Exo4D frames (see "Getting the Ego-Exo4D Frames" above)
-python data_preparation/egoexo4d/extract_frames.py --egoexo_root <EGOEXO_DIR>
-
-# 3. Evaluate a model
-python evaluation/run_active.py  --config configs/models/qwen3-vl-8b-instruct.yaml
-python evaluation/run_passive.py --config configs/models/qwen3-vl-8b-instruct.yaml
-```
-
-The `browse` config can also be loaded with 🤗 Datasets (this downloads the benchmark images):
-
-```python
-from datasets import load_dataset
-
-browse = load_dataset("gtc-hf/SATE-Bench", split="test")
-row = browse[0]
-print(row["question"], row["options"], row["answer"], len(row["images"]))
-```
-
-For the complete annotations (including Ego-Exo4D questions and the GRPO training data), use the JSON files, e.g. via `python scripts/download_data.py` or `huggingface_hub.hf_hub_download`.
 
 ## Source Datasets
 
