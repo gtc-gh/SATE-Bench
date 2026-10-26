@@ -119,56 +119,6 @@ SATE-Bench/
 
 ---
 
-## 📝 Annotation Data Structure
-
-The benchmark annotations are stored in `data/benchmark/spatial_active.json` and `data/benchmark/spatial_passive.json`. Each entry is one multiple-choice question. Here is an example of an Active-setting entry:
-
-```json
-{
-  "index": 0,
-  "dataset": "Ego-Exo4D",
-  "scene": "cmu_soccer06_5/0",
-  "type": "active",
-  "question_name": "Human Counting",
-  "question": "Based on all the provided views, how many unique people can be identified in the entire indoor training facility?",
-  "options": {
-    "A": "6",
-    "B": "9",
-    "C": "The queried entity does not exist or is not visible, or the provided images are insufficient to answer the question.",
-    "D": "8",
-    "E": "7"
-  },
-  "answer": "E",
-  "num_views": 4,
-  "image_paths": [
-    "images/Ego-Exo4D/cmu_soccer06_5/0/view_1.jpg",
-    "images/Ego-Exo4D/cmu_soccer06_5/0/view_2.jpg",
-    "images/Ego-Exo4D/cmu_soccer06_5/0/view_3.jpg",
-    "images/Ego-Exo4D/cmu_soccer06_5/0/view_4.jpg"
-  ],
-  "active_init_view": 4
-}
-```
-
-### Attribute Descriptions
-
-* **`index`**: `(int)` Unique identifier of the question within its annotation file.
-* **`dataset`**: `(str)` Source dataset of the scene (e.g., `Harmony4D`, `Ego-Exo4D`).
-* **`scene`**: `(str)` Sequence name and synchronized frame index (`<sequence>/<frame>`).
-* **`type`**: `(str)` Evaluation setting (`active` or `passive`).
-* **`question_name`**: `(str)` Task name (one of the ten tasks listed in `sate_bench/config.py`, e.g. `Human Counting`).
-* **`question`**: `(str)` The natural-language question.
-* **`options`**: `(dict)` Answer options `A`–`E` (or `A`–`B` for 2-option questions).
-* **`answer`**: `(str)` The ground-truth option letter.
-* **`num_views`**: `(int)` Number of available camera views of the scene (4–8).
-* **`image_paths`**: `(list[str])` All views of the scene, relative to `data/benchmark/`. Views are ordered clockwise around the scene (`view_1`, `view_2`, ...), so moving "left" goes from `view_k` to `view_{k+1}`.
-* **`active_init_view`**: `(int, Active only)` 1-based index of the initial, occluded view.
-* **`passive_views`**: `(list[int], Passive only)` 1-based indices of the views given to the model in the Passive setting.
-
-The GRPO training files (`data/train/train.json`, `data/train/val.json`) use single-view samples with the fields `index`, `dataset`, `type`, `question_name`, `question`, `options`, `answer` and `image_path` (relative to `data/train/`). For `active` training samples, the correct option is *"Move and explore more views."*
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Installation
@@ -186,7 +136,7 @@ pip install -r requirements.txt
 The code is tested with Python 3.12, PyTorch 2.11, vLLM 0.25, Transformers 5.13 and TRL 1.10. Open-source models are served with [vLLM](https://github.com/vllm-project/vllm); please refer to the official vLLM installation guide if your CUDA version differs.
 
 > [!NOTE]
-> If multi-GPU inference with vLLM (tensor parallelism, `--tensor_parallel_size` ≥ 2) is not supported by your GPUs or raises errors, you can run the open-source models with [Hugging Face Transformers](https://github.com/huggingface/transformers) instead. This repository only includes vLLM, Gemini and OpenAI backends, so you need to add a Transformers backend to `sate_bench/models.py` yourself.
+> If multi-GPU inference with vLLM (tensor parallelism, `--tensor_parallel_size` ≥ 2) is not supported by your GPUs or raises errors, you can run the open-source models with [Hugging Face Transformers](https://github.com/huggingface/transformers) instead.
 
 ### 2. API Keys
 

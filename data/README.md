@@ -122,15 +122,6 @@ print(row["question"], row["options"], row["answer"], len(row["images"]))
 
 For the complete annotations (including Ego-Exo4D questions and the GRPO training data), use the JSON files downloaded in Step 1.
 
-### Step 4: Evaluate a model
-
-```bash
-python evaluation/run_active.py  --config configs/models/qwen3-vl-8b-instruct.yaml
-python evaluation/run_passive.py --config configs/models/qwen3-vl-8b-instruct.yaml
-```
-
-See the [code repository](https://github.com/gtc-gh/SATE-Bench) for all model configs, the metrics and the GRPO training code.
-
 ## Dataset Structure
 
 ```
