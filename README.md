@@ -5,7 +5,7 @@
 ***Accepted to WACV 2027***
 
 [![Project Page](https://img.shields.io/badge/🌐%20Project-Page-blue)](https://gtc-gh.github.io/SATE-Bench/)
-[![arXiv](https://img.shields.io/badge/Arxiv-Coming%20Soon-b31b1b.svg?logo=arXiv)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.34149-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2610.34149)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Data-ffcc00.svg)](https://huggingface.co/datasets/gtc-hf/SATE-Bench)
 [![GitHub](https://img.shields.io/badge/💻%20GitHub-Code-green)](https://github.com/gtc-gh/SATE-Bench)
 
@@ -35,6 +35,7 @@ This is the official repository for the paper **"Humans in Space: Can MLLMs Cons
 
 ## 📰 News
 
+* **`[2026/10]`**: 🚀 We release the [arXiv paper](https://arxiv.org/abs/2610.34149), [project page](https://gtc-gh.github.io/SATE-Bench/), [code](https://github.com/gtc-gh/SATE-Bench) and [data](https://huggingface.co/datasets/gtc-hf/SATE-Bench)!
 * **`[2026/10]`**: 🎉 **Our paper has been accepted to WACV 2027!**
 
 ---
@@ -309,7 +310,15 @@ All evaluation scripts save results incrementally and resume automatically when 
 If you use SATE-Bench in your research, please cite our WACV 2027 paper:
 
 ```bibtex
-
+@misc{guo2026humansspacemllmsconstruct,
+      title={Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?},
+      author={Tianchen Guo and Tengyue Zhang and Chen Liu and Ling Chen and Xin Yu},
+      year={2026},
+      eprint={2610.34149},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.34149},
+}
 ```
 
 ---

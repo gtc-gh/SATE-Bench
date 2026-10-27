@@ -39,7 +39,7 @@ extra_gated_fields:
 
 **Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?** (WACV 2027)
 
-[🌐 Project Page](https://gtc-gh.github.io/SATE-Bench/) · [💻 Code](https://github.com/gtc-gh/SATE-Bench) · 📄 Paper (coming soon)
+[🌐 Project Page](https://gtc-gh.github.io/SATE-Bench/) · [💻 Code](https://github.com/gtc-gh/SATE-Bench) · [📄 Paper](https://arxiv.org/abs/2610.34149)
 
 ![SATE-Bench: Active exploration vs. Passive observation](https://gtc-gh.github.io/SATE-Bench/static/images/teaser.webp)
 
@@ -209,4 +209,14 @@ The SATE-Bench annotations and data are released under [CC BY-NC 4.0](https://cr
 
 ## Citation
 
-Coming soon.
+```bibtex
+@misc{guo2026humansspacemllmsconstruct,
+      title={Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?},
+      author={Tianchen Guo and Tengyue Zhang and Chen Liu and Ling Chen and Xin Yu},
+      year={2026},
+      eprint={2610.34149},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.34149},
+}
+```
